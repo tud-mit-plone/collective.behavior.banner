@@ -101,7 +101,6 @@ class BannerViewlet(ViewletBase):
 
         self.scroll = len(banners) > 1
 
-        random.shuffle(banners)
         return banners
 
     def getVideoEmbedMarkup(self, url):
